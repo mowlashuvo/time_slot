@@ -1,4 +1,4 @@
-part of 'reset_password_bloc.dart';
+part of 'time_slot_bloc.dart';
 
 abstract class TimeSlotState extends Equatable {
   const TimeSlotState();

@@ -5,9 +5,9 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-part 'reset_password_event.dart';
+part 'time_slot_event.dart';
 
-part 'reset_password_state.dart';
+part 'time_slot_state.dart';
 
 class TimeSlotBloc extends Bloc<TimeSlotEvent, TimeSlotState> {
 
