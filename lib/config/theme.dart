@@ -15,7 +15,7 @@ ThemeData theme() {
     splashColor: const Color.fromRGBO(255, 176, 153, 1),
     primaryColorLight: const Color.fromRGBO(255, 176, 153, 1),
     accentColor: const Color.fromRGBO(241, 82, 35, 1),
-    bottomAppBarColor: const Color.fromRGBO(255, 176, 153, 1),
+    bottomAppBarColor: const Color.fromRGBO(241, 82, 35, 1),
     pageTransitionsTheme: PageTransitionsTheme(
       builders: {
         TargetPlatform.android: builder,

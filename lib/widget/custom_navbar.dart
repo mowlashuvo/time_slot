@@ -24,6 +24,14 @@ class CustomNavigationBar extends StatelessWidget {
             label: 'Cart',
           ),
           BottomNavigationBarItem(
+            icon: Icon(Icons.shopping_cart),
+            label: 'Cart',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.favorite_rounded),
+            label: 'Cart',
+          ),
+          BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'Profile',
           ),
@@ -32,6 +40,8 @@ class CustomNavigationBar extends StatelessWidget {
         type: BottomNavigationBarType.fixed,
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.white,
+        showUnselectedLabels: false,
+        showSelectedLabels: false,
         iconSize: 20,
         onTap: (index) {
           context
