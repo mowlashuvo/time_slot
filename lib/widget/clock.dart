@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class _ClockState extends State<Clock> {
   Widget build(BuildContext context) {
     return Text(
       'Time Now: $_timeString',
-      style: Theme.of(context).textTheme.labelLarge,
+      style: Theme.of(context).textTheme.labelLarge!.copyWith(fontSize: 30.sp),
       textAlign: TextAlign.center,
     );
   }

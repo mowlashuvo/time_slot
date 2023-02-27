@@ -50,7 +50,8 @@ class TimeSlotBloc extends Bloc<TimeSlotEvent, TimeSlotState> {
           startTime = timeIncrement;
         }
 
-        nextDaySlots.insert(0,timeSlots.last);
+        nextDaySlots.insert(0,'Going to Next Day');
+        nextDaySlots.insert(1,timeSlots.last);
         emit(UpdateTimeSlotState(
             min: min,
             slots: slots,

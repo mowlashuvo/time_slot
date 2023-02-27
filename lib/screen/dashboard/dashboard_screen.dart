@@ -28,8 +28,7 @@ class DashboardScreen extends StatelessWidget {
       },
       builder: (context, state) {
         return Scaffold(
-            // appBar: selectedIndex==2?null:CustomAppBar(title: selectedIndex==0?'Open 247':selectedIndex==1?'Cart':'Profile', index: selectedIndex),
-            body: selectedIndex==0?const HomeScreen():selectedIndex==1?const HomeScreen():const HomeScreen(),
+            body: selectedIndex==0?const HomeScreen():selectedIndex==1?const Center(child: Text('data')):const Center(child: Text('data')),
             bottomNavigationBar: CustomNavigationBar(selectedIndex: selectedIndex)
         );
       },

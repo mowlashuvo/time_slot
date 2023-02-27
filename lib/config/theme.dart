@@ -72,7 +72,7 @@ TextTheme textTheme() {
       //   fontSize: 10.sp,
       //   fontWeight: FontWeight.normal
       // ),
-      bodyLarge: GoogleFonts.inter(
+      bodyLarge: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 16.sp,
         color: const Color.fromRGBO(37, 37, 37, 0.6),
@@ -80,7 +80,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w500,
       ),
-      bodyMedium: GoogleFonts.inter(
+      bodyMedium: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 12.sp,
         color: const Color.fromRGBO(255, 255, 255, 1),
@@ -88,7 +88,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w700,
       ),
-      bodySmall: GoogleFonts.inter(
+      bodySmall: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 12.sp,
         color: const Color.fromRGBO(37, 37, 37, 0.6),
@@ -96,7 +96,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w400,
       ),
-      titleLarge: GoogleFonts.inter(
+      titleLarge: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 18.sp,
         color: const Color.fromRGBO(37, 37, 37, 0.6),
@@ -104,7 +104,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w700,
       ),
-      titleMedium: GoogleFonts.inter(
+      titleMedium: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 12.sp,
         color: const Color.fromRGBO(37, 37, 37, 0.6),
@@ -112,7 +112,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w700,
       ),
-      titleSmall: GoogleFonts.inter(
+      titleSmall: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 12.sp,
         color: const Color.fromRGBO(37, 37, 37, 0.6),
@@ -120,7 +120,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w500,
       ),
-      labelLarge: GoogleFonts.inter(
+      labelLarge: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 16.sp,
         color: const Color.fromRGBO(0, 0, 0, 1),
@@ -128,7 +128,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w700,
       ),
-      labelMedium: GoogleFonts.inter(
+      labelMedium: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 12.sp,
         color: const Color.fromRGBO(39, 39, 39, 1),
@@ -136,7 +136,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w700,
       ),
-      labelSmall: GoogleFonts.inter(
+      labelSmall: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 12.sp,
         color: const Color.fromRGBO(39, 39, 39, 1),
@@ -144,7 +144,7 @@ TextTheme textTheme() {
         fontStyle: FontStyle.normal,
         fontWeight: FontWeight.w500,
       ),
-      displayMedium: GoogleFonts.inter(
+      displayMedium: GoogleFonts.dmSans(
         // textStyle: Theme.of(context).textTheme.headline4,
         fontSize: 14.sp,
         color: const Color.fromRGBO(37, 37, 37, 0.6),

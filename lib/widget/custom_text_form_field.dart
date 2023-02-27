@@ -19,9 +19,9 @@ class CustomTextFormField extends StatelessWidget {
   Widget build(BuildContext context) {
     var keyboardType = TextInputType.number;
 
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 10.0.h, horizontal: 0.0.w),
-      width: 100.w,
+    return SizedBox(
+      width: 90.w,
+      height: 46.h,
       child: TextFormField(
         //key: _formKey,
         keyboardType: keyboardType,
@@ -33,21 +33,21 @@ class CustomTextFormField extends StatelessWidget {
           isDense: true,
           border: OutlineInputBorder(
             borderSide:
-                const BorderSide(color: Color.fromRGBO(223, 223, 223, 1)),
+                const BorderSide(color: Color.fromRGBO(4, 4, 21, 1)),
             borderRadius: BorderRadius.all(
               Radius.circular(6.0.r),
             ),
           ),
           enabledBorder: OutlineInputBorder(
             borderSide:
-                const BorderSide(color: Color.fromRGBO(223, 223, 223, 1)),
+                const BorderSide(color: Color.fromRGBO(4, 4, 21, 1)),
             borderRadius: BorderRadius.all(
               Radius.circular(6.0.r),
             ),
           ),
           focusedBorder: OutlineInputBorder(
             borderSide:
-                const BorderSide(color: Color.fromRGBO(223, 223, 223, 1)),
+                const BorderSide(color: Color.fromRGBO(4, 4, 21, 1)),
             borderRadius: BorderRadius.all(
               Radius.circular(6.0.r),
             ),
