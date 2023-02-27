@@ -4,10 +4,12 @@ import '../screen/screen.dart';
 class AppRouter {
   static Route onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case '/':
+      case DashboardScreen.routeName:
         return DashboardScreen.route();
       case SplashScreen.routeName:
         return SplashScreen.route();
+      case OnboardScreen.routeName:
+        return OnboardScreen.route();
       case TimeSlotScreen.routeName:
         return TimeSlotScreen.route();
       default:

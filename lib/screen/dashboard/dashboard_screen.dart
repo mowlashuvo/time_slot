@@ -10,7 +10,7 @@ class DashboardScreen extends StatelessWidget {
 
   const DashboardScreen({Key? key}) : super(key: key);
 
-  static const String routeName = '/';
+  static const String routeName = '/dashboard';
 
   static Route route() {
     return MaterialPageRoute(

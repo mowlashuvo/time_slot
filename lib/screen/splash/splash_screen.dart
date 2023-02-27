@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-      Timer(const Duration(seconds: 4), () => Navigator.pushReplacementNamed(context, TimeSlotScreen.routeName));
+      Timer(const Duration(seconds: 4), () => Navigator.pushReplacementNamed(context, OnboardScreen.routeName));
 
   }
 
